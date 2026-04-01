@@ -1,0 +1,10 @@
+{"seq": "GCGAUAGCUACGUAGCUAGCA", "structure": "(((((......))))).....", "pocket": "ARNDCQEGHILK"}
+{"seq": "ATCGATCGATCGATCGAT", "structure": "..................", "pocket": "MFPSTWYVARND"}
+{"seq": "GGCCAUAGCUAGCAUGGCC", "structure": "(((((.........)))))", "pocket": "CQEGHILKMFPS"}
+{"seq": "GCUAGCUAGCUAGCUAGC", "structure": "..................", "pocket": "TWYVARNDCQEG"}
+{"seq": "CGCGAUAUAUAUAUACGCG", "structure": "(((((.........)))))", "pocket": "HILKMFPSTWYV"}
+{"seq": "AGGCUAGCUAGCUAGCUAG", "structure": "...(((....)))......", "pocket": "ARNDCQEGHILK"}
+{"seq": "GCUAGCUAGCUAGCUAGCU", "structure": "...................", "pocket": "MFPSTWYVARND"}
+{"seq": "CCGGAUAGCUAGCUAGGCC", "structure": "(((((.........)))))", "pocket": "CQEGHILKMFPS"}
+{"seq": "UAGCUAGCUAGCUAGCUAG", "structure": "...................", "pocket": "TWYVARNDCQEG"}
+{"seq": "GCGCAUAUAUAUAUGCGCG", "structure": "(((((.........)))))", "pocket": "HILKMFPSTWYV"}
