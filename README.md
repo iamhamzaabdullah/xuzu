@@ -71,8 +71,8 @@ The graph attention block powering XUZU's structure encoder. RJ operates over th
 
 | Module | Proprietary Block | Role |
 |--------|:-----------------:|------|
-| `xuzu/layers.py` | **FEBI · RJ** | Core transformer + graph attention building blocks |
-| `xuzu/encoders.py` | FEBI · RJ | Three independent encoder towers |
+| `xuzu/layers.py` | **FEBI · BRN** | Core transformer + graph attention building blocks |
+| `xuzu/encoders.py` | FEBI · BRN | Three independent encoder towers |
 | `xuzu/fusion.py` | — | Cross-modal gated fusion (3-way softmax gate) |
 | `xuzu/decoder.py` | FEBI | Absorbing-state D3PM diffusion decoder |
 | `xuzu/reward.py` | — | Binding affinity surrogate + GER closed-loop refinement |
