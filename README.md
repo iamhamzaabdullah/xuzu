@@ -45,7 +45,7 @@ XUZU takes three parallel inputs — a nucleotide sequence, its secondary struct
 
   [Nucleotide Sequence]  ──►  NucleotideLanguageEncoder  ──[ FEBI × 6 ]──┐
                                                                            │
-  [Dot-bracket Structure] ──►  StructureGraphEncoder     ──[  RJ  × 3 ]──►  CrossModalFusion  ──►  DiscreteDiffusionDecoder  ──►  Aptamer
+  [Dot-bracket Structure] ──►  StructureGraphEncoder     ──[  BRN  × 3 ]──►  CrossModalFusion  ──►  DiscreteDiffusionDecoder  ──►  Aptamer
                                                                            │         ▲
   [Protein Pocket AA seq] ──►  TargetProteinEncoder      ──[ FEBI × 3 ]──┘         │
                                                                                GER Loop
