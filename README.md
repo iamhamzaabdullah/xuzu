@@ -15,7 +15,7 @@
 
 > **XUZU** is a de novo, multi-modal nucleotide language model for DNA and RNA aptamer design.  
 > It unifies sequence, secondary structure, and protein-target context through two proprietary blocks —  
-> **FEBI** and **RJ** — generating novel aptamers without requiring SELEX data.
+> **FEBI** and **BRN** — generating novel aptamers without requiring SELEX data.
 
 <br/>
 
@@ -60,7 +60,7 @@ XUZU takes three parallel inputs — a nucleotide sequence, its secondary struct
 
 The primary transformer block powering XUZU's sequence and protein encoders. FEBI combines **RoPEAttention** (multi-head self-attention with Rotary Positional Encoding), a **gated feed-forward network** (GELU, 4× expansion), and pre-norm residual connections — enabling deep context encoding without positional bias.
 
-### 🔵 Relational Junction
+### 🔵 Biological Relational Nexus (BRN)
 *Proprietary · Hamza A @ terminalBio*
 
 The graph attention block powering XUZU's structure encoder. RJ operates over the **base-pair contact graph** derived from dot-bracket notation, propagating structural context across bonded nucleotide positions — capturing stem-loops, hairpins, and kissing-loop motifs that define aptamer binding geometry.
