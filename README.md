@@ -63,7 +63,7 @@ The primary transformer block powering XUZU's sequence and protein encoders. FEB
 ### 🔵 Biological Relational Nexus (BRN)
 *Proprietary · Hamza A @ terminalBio*
 
-The graph attention block powering XUZU's structure encoder. RJ operates over the **base-pair contact graph** derived from dot-bracket notation, propagating structural context across bonded nucleotide positions — capturing stem-loops, hairpins, and kissing-loop motifs that define aptamer binding geometry.
+The graph attention block powering XUZU's structure encoder. BRN operates over the **base-pair contact graph** derived from dot-bracket notation, propagating structural context across bonded nucleotide positions — capturing stem-loops, hairpins, and kissing-loop motifs that define aptamer binding geometry.
 
 ---
 
@@ -214,7 +214,7 @@ One JSON record per line (`.jsonl`). Only `seq` is required.
 
 | Version | Target | Status |
 |---------|--------|:------:|
-| **v1.0.0** — Proof of concept, FEBI + RJ architecture | Apr 2026 | ✅ Released |
+| **v1.0.0** — Proof of concept, FEBI + BRN architecture | Apr 2026 | ✅ Released |
 | **v1.5.0** — ESM-2 pocket encoder + extended XNA tokenizer | Jun 2026 | 🔧 Planned |
 | **v2.0.0** — Pre-trained backbone on RNAcentral + AptaBase (50K+ records) | Aug 2026 | 🔧 Planned |
 | **v2.5.0** — Benchmark paper + Hugging Face Hub release | Oct 2026 | 🔧 Planned |
